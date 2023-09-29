@@ -1,6 +1,18 @@
 # Penerjemah Variabel Masal
 
-Ini adalah alat untuk menerjemahkan variabel dalam format [bahasa]=[terjemahan] menggunakan Python. Alat ini memungkinkan Anda untuk menerjemahkan banyak folder atau file sekaligus.
+Ini adalah alat untuk menerjemahkan variabel dalam format [variabel]=[yang ingin di terjemakan], contoh anda memiliki file txt dengan isi
+```bash
+西瓜 (xīguā) = Watermelon
+苹果 (píngguǒ) = Apple
+香蕉 (xiāngjiāo) = Banana
+```
+jika di terjemaknan akan menjadi 
+```bash
+西瓜 (xīguā) = Semangka
+苹果 (píngguǒ) = Apel
+香蕉 (xiāngjiāo) = pisang
+```
+yang di terjemakna adalah isi dari variabel, program di jalankan menggunakan Python. dapat juga menerjemahkan jia file ada didalam folder dengan menzipnya
 
 ## Cara Penggunaan
 
