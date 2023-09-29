@@ -9,6 +9,7 @@ Clone repositori ini ke dalam direktori lokal Anda:
 ```bash
 git clone https://github.com/Mabzak-Knight/penerjemah-variabel-masal.git
 ```
+Instal dependensi yang diperlukan:
 ```bash
 cd penerjemah-variabel-masal
 pip install -r requirements.txt
