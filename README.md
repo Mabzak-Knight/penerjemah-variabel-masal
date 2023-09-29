@@ -14,7 +14,7 @@ cd penerjemah-variabel-masal
 pip install -r requirements.txt
 from penerjemah import *
 ```
-Untuk menerjemahkan dan menyimpan file, gunakan fungsi terjemahkan_dan_simpan():
+Untuk menerjemahkan file txt dan menyimpan file, gunakan fungsi terjemahkan_dan_simpan():
 ```bash
 terjemahkan_dan_simpan('lokasi_file_input', 'lokasi_file_output')
 ```
@@ -22,4 +22,14 @@ Contoh:
 
 ```bash
 terjemahkan_dan_simpan('/content/tes.txt', 'hasil_tes.txt')
+```
+
+Untuk menerjemahkan filez.zip yang didalamnya adalah folder yang memiliki banyak sub foder dan file txt lalu menzip kembali, dapat menggunakan fungsi menerjemahkan_zip():
+```bash
+menerjemahkan_zip('lokasi_file_zip', 'lokasi_file_output')
+```
+Contoh:
+
+```bash
+menerjemahkan_zip('/content/belum.zip','hasil_terjemahan.zip')
 ```
